@@ -1,0 +1,36 @@
+Role of student
+1. Insert data using roll number, name course name.
+
+
+The goal is to insert 
+1.roll no
+2.student name 
+3.course name
+4.subject name
+5.marks
+6.coordinator name
+
+student table (4th to be inserted)
+roll no
+student name
+course name => comes from course table
+
+course table (2nd to be inserted) (done )
+1.course name 
+2.course id
+3.coordinator id => comes from coordinator table
+
+subject table (3rd to be inserted) (done)
+1.subject id
+2.subject name
+3.course name => comes from course table
+
+marks table  (5th to be inserted)
+1.marks id
+2.roll no => comes from student table
+3.subject id => comes from subject table
+4.marks
+
+coordinator table(1st to be inserted) (done)
+1.coordinator id
+2.coordinator name 
